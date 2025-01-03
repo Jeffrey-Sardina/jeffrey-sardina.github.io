@@ -1,0 +1,115 @@
+body
+{
+    background-color:#333333;
+    color: #dddddd;
+}
+
+h1
+{
+    text-align: center;
+    font-size: 2.5em;
+}
+
+.centerbox
+{
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+    font-size: 1.5em;
+    background-color:#444;
+}
+
+a
+{
+    color: #aaaaff;
+}
+
+table, th, tr, td
+{
+    border-color: #444444;
+}
+
+textarea, blockquote
+{
+    background-color:#111111;
+    color: #ffffff;
+    border-color: #444444;
+}
+
+input
+{
+    background-color:#656565;
+    color: #ffffff;
+    border-color: #444444;
+}
+
+button
+{
+    background-color:#656565;
+    color: #ffffff;
+    border-color: #444444;
+}
+
+/* index.html */  
+/* ref: https://www.w3schools.com/howto/howto_js_filter_lists.asp */  
+#termInput
+{
+    background-position: 10px 12px; /* Position the search icon */
+    background-repeat: no-repeat; /* Do not repeat the icon image */
+    width: 95%;
+    font-size: 16px; /* Increase font-size */
+    padding: 12px 20px 12px 40px; /* Add some padding */
+    margin-bottom: 12px; /* Add some space below the input */
+}
+
+#dict-idx
+{
+    /* Remove default list styling */
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#dict-idx li a
+{
+    border: 1px solid #444444; /* Add a border to all links */
+    margin-top: -1px; /* Prevent double borders */
+    background-color: #444444; /* Grey background color */
+    padding: 12px; /* Add some padding */
+    text-decoration: none; /* Remove default text underline */
+    font-size: 18px; /* Increase the font-size */
+    color: #ffffff; /* Add a black text color */
+    display: block; /* Make it into a block element to fill the whole list */
+}
+
+#dict-idx li a:hover:not(.header)
+{
+    background-color: #111111; /* Add a hover effect to all links, except for headers */
+}
+
+/* header.html */  
+/* https://www.w3schools.com/howto/howto_js_topnav.asp */
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #222;
+    overflow: hidden;
+    width: 60%;
+    position: relative;
+    left: 20%;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: #fff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #656565;
+    color: #fff;
+}
