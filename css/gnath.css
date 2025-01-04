@@ -54,11 +54,10 @@ button
 /* ref: https://www.w3schools.com/howto/howto_js_filter_lists.asp */  
 #termInput
 {
-    background-position: 10px 12px; /* Position the search icon */
-    background-repeat: no-repeat; /* Do not repeat the icon image */
-    width: 95%;
+    width: 99.5%;
     font-size: 16px; /* Increase font-size */
-    padding: 12px 20px 12px 40px; /* Add some padding */
+    padding-top: 12px; /* Add some padding */
+    padding-bottom: 12px; /* Add some padding */
     margin-bottom: 12px; /* Add some space below the input */
 }
 
