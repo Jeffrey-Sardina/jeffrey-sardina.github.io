@@ -50,7 +50,7 @@ button
     border-color: #444444;
 }
 
-/* index.html */  
+/* index.html in Foclóir Tráchtais */  
 /* ref: https://www.w3schools.com/howto/howto_js_filter_lists.asp */  
 #termInput
 {
@@ -72,9 +72,9 @@ button
 
 #dict-idx li a
 {
-    border: 1px solid #444444; /* Add a border to all links */
+    border: 1px solid #5f5f5f; /* Add a border to all links */
     margin-top: -1px; /* Prevent double borders */
-    background-color: #444444; /* Grey background color */
+    background-color: #444; /* Grey background color */
     padding: 12px; /* Add some padding */
     text-decoration: none; /* Remove default text underline */
     font-size: 18px; /* Increase the font-size */
