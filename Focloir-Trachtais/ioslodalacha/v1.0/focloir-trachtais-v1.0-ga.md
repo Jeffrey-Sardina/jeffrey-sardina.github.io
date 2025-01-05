@@ -1,4 +1,4 @@
-# Foclóir Tráchtais
+# Foclóir Tráchtais v1.0
 **Jeffrey Seathrún Sardina**<br>
 **Eanáir 2025**
 
