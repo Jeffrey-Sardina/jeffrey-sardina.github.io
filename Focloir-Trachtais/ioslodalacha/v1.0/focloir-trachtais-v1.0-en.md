@@ -2,7 +2,6 @@
 **Jeffrey Seathrún Sardina**<br>
 **Eanáir 2025**
 
-## Achoimre na dTéarmaí
 | **Béarla**                      | **Gaeilge**                    |
 |---------------------------------|--------------------------------|
 | 0-shot                          | 0-sonra                        |
@@ -106,7 +105,7 @@
 | subgraph                        | fo-ghraf                       |
 | subject                         | ainmní                         |
 | testing                         | teisteáil                      |
-| testing set                     | tacar deimhnithe               |
+| testing set                     | tacar teisteála                |
 | to evaluate                     | measúnaigh                     |
 | to finetune                     | mion-fheabhsú                  |
 | to model                        | samhlaigh                      |
@@ -129,7 +128,6 @@
 | vector                          | veicteoir                      |
 
 
-## Téarmaí
 **0-shot (ainmfhocal): 0-sonra**<br>
 *sainmhíniú (ga):* Cur chuige mion-fheabsaithe ina bhfuil an tsamhail réamh-thraenáilte teisteáilte ar tacar sonraí nua gan mion-fheabsú ar bith.<br>
 *sainmhíniú (en):* A finetuning protocol in which the pretrained model is directly tested on a new dataset without finetuning.
@@ -146,7 +144,7 @@ nótaí aistriúcháin:
 *sainmhíniú (en):* In the context of this thesis, how well two measures / quantities relate to each other in general terms.
 
 tagairtí:
-- ailíniú: De Bhaldraithe (1978), Ó Dónaill (1977)
+- ailíniú: De Bhaldraithe (1978), Ó Dónaill (1977), (TODO: Williams et al. (2023)?)
 
 nótaí aistriúcháin:
 - Téarma ar fáil i gcomhthéacs comhchosúil sna foclóirí.
@@ -220,10 +218,10 @@ nótaí aistriúcháin:
 *sainmhíniú (en):* A scalar value multiplied with another number or variable.
 
 tagairtí:
-- comhéifeacht: De Bhaldraithe (1978), Ó Dónaill (1977), Williams et al. (2023)
+- comhéifeacht: De Bhaldraithe (1978), Ó Dónaill (1977), (TODO: Williams et al. (2023)?)
 
 nótaí aistriúcháin:
-- Téarma luaite mar théarma matamaitice sna foclóirí thuas.
+- Téarma luaite mar théarma matamaitice i bhFoclóir Uí Dhónaill agus i bhFoclóir de Bhaldraithe.
 
 
 **computer science (ainmfhocal): ríomheolaíocht**<br>
@@ -266,7 +264,7 @@ nótaí aistriúcháin:
 *sainmhíniú (en):* A mathematical quantity that describes how well two lists of numbers relate.
 
 tagairtí:
-- comhchoibhneas: De Bhaldraithe (1978), Dineen (1934)\*, Ó Dónaill (1977)
+- comhchoibhneas: De Bhaldraithe (1978), Dineen (1934)\*, Ó Dónaill (1977), (TODO: Williams et al. (2023)?)
 
 nótaí aistriúcháin:
 - \* Tá 'cómh' agus 'cóibhneas' ar fáil i bhFoclóir Uí Dhuinín, ach ní chuirtear le chéile iad ann
@@ -317,7 +315,7 @@ nótaí aistriúcháin:
 *sainmhíniú (en):* In the context of a node in a knowledge graph, how many connections it has with other nodes in the graph.
 
 tagairtí:
-- céim: De Bhaldraithe (1978), Dineen (1934), Ó Dónaill et al. (1991), Ó Dónaill (1977)
+- céim: De Bhaldraithe (1978), Dineen (1934), Ó Dónaill et al. (1991), Ó Dónaill (1977), (TODO: Williams et al. (2023)?)
 
 nótaí aistriúcháin:
 - Luann na foclóirí thuas (seachas Foclóir Uí Dhuinín) 'céim' mar téarma geoiméadrachta / eolaíochta. Ní hionann 'céim' geoiméadrachta agus 'céim' nóid i ngraf eolais. Cé is moite de sin, is féidir 'céim' a úsáid i gcomhthéacs eolaíochta chun trácht a dhéanamh ar cé chomh fásta / láidir / srl is atá rud (.i. céim teochta). Luíonn sé seo lé 'céim' mhinicíochta i ngraf -- cé chomh coitianta is atá nód amháin.
@@ -328,7 +326,7 @@ nótaí aistriúcháin:
 *sainmhíniú (en):* In the context of a knowledge graph (or subgraph), highly connected with other parts of the same graph / subgraph.
 
 tagairtí:
-- dlúth: De Bhaldraithe (1978), Dineen (1934), Ó Dónaill et al. (1991), Ó Dónaill (1977), Williams et al. (2023)
+- dlúth: De Bhaldraithe (1978), Dineen (1934), Ó Dónaill et al. (1991), Ó Dónaill (1977), (TODO: Williams et al. (2023)?)
 
 nótaí aistriúcháin:
 - Téarma díreach ar fáil le brí chomhchosúil.
@@ -352,7 +350,7 @@ nótaí aistriúcháin:
 *sainmhíniú (en):* In the context of a knowledge graph (or subgraph), how dense it is.
 
 tagairtí:
-- dlúth: De Bhaldraithe (1978), Ó Dónaill et al. (1991), Ó Dónaill (1977)
+- dlúth: De Bhaldraithe (1978), Ó Dónaill et al. (1991), Ó Dónaill (1977), (TODO: Williams et al. (2023)?)
 
 nótaí aistriúcháin:
 - Téarma díreach ar fáil le brí chomhchosúil.
@@ -363,11 +361,10 @@ nótaí aistriúcháin:
 *sainmhíniú (en):* Regarding a vector space, the number of elements contained in each vector in that space; or, one axis of that space.
 
 tagairtí:
-- toise: De Bhaldraithe (1978), Dineen (1934)\*, Ó Dónaill et al. (1991)\*, Ó Dónaill (1977), Williams et al. (2023)
+- toise: De Bhaldraithe (1978), Dineen (1934)\*, Ó Dónaill et al. (1991)\*, Ó Dónaill (1977), (TODO: Williams et al. (2023)?)
 
 nótaí aistriúcháin:
 - \* Is mar sórt tomhais, seachas toise matamaiticiúil, a fheictear an téarma sna foclóirí seo.
-- I bhFoclóir Uí Dhónaill agus i Stórchiste, luaitear 'toise' mar théarma matamaitice.
 
 
 **dimensionality (ainmfhocal): (frása le 'toise')**<br>
@@ -455,7 +452,7 @@ nótaí aistriúcháin:
 *sainmhíniú (en):* A process that is used to determine how well (or how poorly) a machine learning model works during its training, or after it has been trained.
 
 tagairtí:
-- measúnú: De Bhaldraithe (1978), Ó Dónaill (1977)
+- measúnú: De Bhaldraithe (1978), Ó Dónaill (1977), (TODO: Williams et al. (2023)?)
 
 nótaí aistriúcháin:
 - Úsáidtear 'measúnú' seachas 'meas' toisc é a bheith úsáidte i gcomhthéacs níos teicniúla, agus chun débhrí a sheachaint idir meas (mar smaoineamh) agus meas (mar mheasúnú).
@@ -490,7 +487,7 @@ nótaí aistriúcháin:
 *sainmhíniú (en):* An abstract structure used to describe or understand a phenomenon in a general form.
 
 tagairtí:
-- creatlach: De Bhaldraithe (1978), Ó Dónaill et al. (1991), Ó Dónaill (1977)
+- creatlach: De Bhaldraithe (1978), Ó Dónaill et al. (1991), Ó Dónaill (1977), (TODO: Williams et al. (2023)?)
 
 nótaí aistriúcháin:
 - Téarma díreach ar fáil le brí chomhchosúil.
@@ -501,12 +498,11 @@ nótaí aistriúcháin:
 *sainmhíniú (en):* In the context of a knowledge graph, how often a node / edge is part of triples in the graph.
 
 tagairtí:
-- minicíocht: De Bhaldraithe (1978), Ó Dónaill et al. (1991), Ó Dónaill (1977), Williams et al. (2023)
+- minicíocht: De Bhaldraithe (1978), Ó Dónaill et al. (1991), Ó Dónaill (1977), (TODO: Williams et al. (2023)?)
 
 nótaí aistriúcháin:
 - Tá an focal 'minic' (gan trácht ar 'minicíocht') i bhFoclóir Uí Dhuinín.
 - Luann Foclóir Uí Dhónaill agus Foclóir De Bhaldraithe 'minicíocht' mar théarma leictreachais, agus le brí níos leithne (.i. minice).
-- Luann Stórchiste 'minicíocht' mar théarma matamaitice.
 
 
 **function (ainmfhocal): feidhm**<br>
@@ -514,10 +510,10 @@ nótaí aistriúcháin:
 *sainmhíniú (en):* A computational process or algorithm that can be precisely defined (i.e. in code).
 
 tagairtí:
-- feidhm: De Bhaldraithe (1978), Dineen (1934), Ó Dónaill et al. (1991), Ó Dónaill (1977), Williams et al. (2023)
+- feidhm: De Bhaldraithe (1978), Dineen (1934), Ó Dónaill et al. (1991), Ó Dónaill (1977), (TODO: Williams et al. (2023)?)
 
 nótaí aistriúcháin:
-- Ní i gcomhthéacs matamaiticiúil a luaitear an téarma seo ach amháin i Stórchiste. Cé is moite de sin, is léir go bhfuil úsáid teicniúil leis (.i. 'Vital functions, feidhmiú an choirp.' i bhFoclóir de Bhaldraithe.
+- Ní i gcomhthéacs matamaiticiúil a luaitear an téarma seo. Cé is moite de sin, is léir go bhfuil úsáid teicniúil leis (.i. 'Vital functions, feidhmiú an choirp.' i bhFoclóir de Bhaldraithe.
 
 
 **graph (ainmfhocal): graf**<br>
@@ -536,10 +532,10 @@ nótaí aistriúcháin:
 *sainmhíniú (en):* A plot that summarises a statistical distribution using frequency columns for every range of values in the distribution.
 
 tagairtí:
-- histeagram: Ó Dónaill (1977), Williams et al. (2023)
+- histeagram: Ó Dónaill (1977), (TODO: Williams et al. (2023)?)
 
 nótaí aistriúcháin:
-- Téarma díreach ar fáil ó Fhoclóir Uí Dhónaill agus ó Stórchiste.
+- Téarma díreach ar fáil ó Fhoclóir Uí Dhónaill.
 
 
 **hyperparameter (ainmfhocal): hipear-pharaiméadar**<br>
@@ -657,7 +653,7 @@ nótaí aistriúcháin:
 *sainmhíniú (en):* In a neural network, a block of neurons that have clearly-defined input and output, and that are a building block of the larger neural network.
 
 tagairtí:
-- ciseal: De Bhaldraithe (1978), Dineen (1934), Ó Dónaill (1977)
+- ciseal: De Bhaldraithe (1978), Dineen (1934), Ó Dónaill (1977), (TODO: Williams et al. (2023)?)
 
 nótaí aistriúcháin:
 - Luann Foclóir Uí Dhónaill mar théarma eolaíochta (sa mbitheolaíocht) é seo.
@@ -668,7 +664,7 @@ nótaí aistriúcháin:
 *sainmhíniú (en):* In the context of a machine learning mode, a scalar value that determines how large each update to the model's parameters is.
 
 tagairtí:
-- ráta: De Bhaldraithe (1978), Ó Dónaill et al. (1991), Ó Dónaill (1977)
+- ráta: De Bhaldraithe (1978), Ó Dónaill et al. (1991), Ó Dónaill (1977), (TODO: Williams et al. (2023)?)
 - foghlaim: féach ar an téarma 'machine learning / ríomhfhoghlaim
 
 nótaí aistriúcháin:
@@ -786,10 +782,10 @@ nótaí aistriúcháin:
 *sainmhíniú (en):* With regards to a distribution, the value directly in the middle of all sorted values.
 
 tagairtí:
-- airmheán: Ó Dónaill (1977), Williams et al. (2023)
+- airmheán: Ó Dónaill (1977), (TODO: Williams et al. (2023)?)
 
 nótaí aistriúcháin:
-- Téarma díreach ar fáil leis an mbrí chéanna sna foinsí thuas.
+- Téarma díreach ar fáil leis an mbrí chéanna.
 
 
 **model (ainmfhocal): samhail**<br>
@@ -820,7 +816,7 @@ nótaí aistriúcháin:
 *sainmhíniú (en):* regarding a number, below 0.
 
 tagairtí:
-- diúltach: De Bhaldraithe (1978), Dineen (1934), Ó Dónaill et al. (1991), Ó Dónaill (1977)
+- diúltach: De Bhaldraithe (1978), Dineen (1934), Ó Dónaill et al. (1991), Ó Dónaill (1977), (TODO: Williams et al. (2023)?)
 
 nótaí aistriúcháin:
 - Téarma díreach ar fáil sna foclóirí.
@@ -867,7 +863,7 @@ nótaí aistriúcháin:
 *sainmhíniú (en):* Relating to nerves (be they real or artificial) or to neural networks.
 
 tagairtí:
-- néarach: Ó Dónaill (1977)
+- néarach: Ó Dónaill (1977), (TODO: Williams et al. (2023)?)
 
 nótaí aistriúcháin:
 - Téarma díreach ar fáil i bhFoclóir Uí Dhónaill (i gcomhthéacs fíor-néaróga amháin).
@@ -878,7 +874,7 @@ nótaí aistriúcháin:
 *sainmhíniú (en):* An approach to, and structure of, machine learning based on artificial neurons.
 
 tagairtí:
-- líonra: De Bhaldraithe (1978), Dineen (1934), Ó Dónaill et al. (1991), Ó Dónaill (1977)
+- líonra: De Bhaldraithe (1978), Dineen (1934), Ó Dónaill et al. (1991), Ó Dónaill (1977), (TODO: Williams et al. (2023)?)
 - néarach: féach ar an téarma 'neural / néarach'
 
 nótaí aistriúcháin:
@@ -912,7 +908,7 @@ nótaí aistriúcháin:
 *sainmhíniú (en):* In the context of a knowledge Graph, a schema that describes the logical structure of the graph (such as which relations are transitive or symmetric).
 
 tagairtí:
-- ointeolaíocht: De Bhaldraithe (1978), Ó Dónaill (1977)
+- ointeolaíocht: De Bhaldraithe (1978), Ó Dónaill (1977), (TODO: Williams et al. (2023)?)
 
 nótaí aistriúcháin:
 - Téarma ar fáil leis an mbrí chéanna (i gcomhthéacs níos ginearálta) sna foclóirí thuas.
@@ -982,7 +978,7 @@ nótaí aistriúcháin:
 *sainmhíniú (en):* The property of being (likely) true.
 
 tagairtí:
-- inchreidteacht: De Bhaldraithe (1978), Ó Dónaill (1977)
+- inchreidteacht: De Bhaldraithe (1978), Ó Dónaill (1977), (TODO: Williams et al. (2023)?)
 
 nótaí aistriúcháin:
 - Téarma ar fáil go díreach ó na foclóirí i gcomhthéacs chomhchosúil.
@@ -1005,7 +1001,7 @@ nótaí aistriúcháin:
 *sainmhíniú (en):* regarding a number, above 0.
 
 tagairtí:
-- deimhneach: De Bhaldraithe (1978), Ó Dónaill (1977)
+- deimhneach: De Bhaldraithe (1978), Ó Dónaill (1977), (TODO: Williams et al. (2023)?)
 
 nótaí aistriúcháin:
 - Téarma ar fáil leis an mbrí chéanna sna foclóirí thuas.
@@ -1018,7 +1014,7 @@ nótaí aistriúcháin:
 tagairtí:
 - abairt: féach ar an téarma 'triple / abairt thriarach'
 - thriarach: féach ar an téarma 'triple / abairt thriarach'
-- fíor: De Bhaldraithe (1978), Dineen (1934), Ó Dónaill et al. (1991), Ó Dónaill (1977)
+- fíor: De Bhaldraithe (1978), Dineen (1934), Ó Dónaill et al. (1991), Ó Dónaill (1977), (TODO: Williams et al. (2023)?)
 
 nótaí aistriúcháin:
 - Úsáidtear frith-shampla toisc gurb in, go díreach, a bhfuil i gceist sa gcás seo.
@@ -1054,7 +1050,7 @@ nótaí aistriúcháin:
 *sainmhíniú (en):* The chance that a random event will occur.
 
 tagairtí:
-- dóchúlacht: De Bhaldraithe (1978), Dineen (1934)\*, Ó Dónaill et al. (1991), Ó Dónaill (1977), Williams et al. (2023)
+- dóchúlacht: De Bhaldraithe (1978), Dineen (1934)\*, Ó Dónaill et al. (1991), Ó Dónaill (1977), (TODO: Williams et al. (2023)?)
 
 nótaí aistriúcháin:
 - \* Sé 'dóigheamhlacht' a fheictear i bhFoclóir Uí Dhuinín, ach meastar gurb in litriú eile ar an bhfocal céanna.
@@ -1135,11 +1131,10 @@ nótaí aistriúcháin:
 *sainmhíniú (en):* a data point that is taken from a statistical distribution or random process.
 
 tagairtí:
-- sampla: De Bhaldraithe (1978), Dineen (1934), Ó Dónaill et al. (1991), Ó Dónaill (1977), Williams et al. (2023)
+- sampla: De Bhaldraithe (1978), Dineen (1934), Ó Dónaill et al. (1991), Ó Dónaill (1977), (TODO: Williams et al. (2023)?)
 
 nótaí aistriúcháin:
 - Tá an téarma seo (i gcomhthéacs chomhchosúil ach níos leithne) díreach ar fáil ó na foclóirí thuas.
-- Luann Stórchiste 'sampla' mar théarma matamaitice.
 
 
 **sampler (ainmfhocal): samplóir**<br>
@@ -1147,7 +1142,7 @@ nótaí aistriúcháin:
 *sainmhíniú (en):* a thing (such as a computer algorithm) that samples.
 
 tagairtí:
-- samplóir: De Bhaldraithe (1978), Ó Dónaill et al. (1991), Ó Dónaill (1977)
+- samplóir: De Bhaldraithe (1978), Ó Dónaill et al. (1991), Ó Dónaill (1977), (TODO: Williams et al. (2023)?)
 
 nótaí aistriúcháin:
 - Tá an téarma seo, leis an mbrí céanna, díreach ar fáil sna foclóirí thuas
@@ -1158,12 +1153,11 @@ nótaí aistriúcháin:
 *sainmhíniú (en):* A numerical value other than a variable, typically used in multiplication.
 
 tagairtí:
-- comhéifeacht: De Bhaldraithe (1978), Ó Dónaill (1977), Williams et al. (2023)
+- comhéifeacht: De Bhaldraithe (1978), Ó Dónaill (1977), (TODO: Williams et al. (2023)?)
 
 nótaí aistriúcháin:
 - Téarma luaite mar théarma matamaitice i bhFoclóir Uí Dhónaill agus i bhFoclóir de Bhaldraithe.
-- Luann Stórchiste 'scálach' mar théarma matamaitice.
-- Más ainmfhocal atá uait, úsáid 'uimhir scálach' (nó 'scálach' mar atá ag Stórchiste).
+- Más ainmfhocal atá uait, úsáid 'uimhir scálach'.
 
 
 **score (ainmfhocal): scór**<br>
@@ -1171,7 +1165,7 @@ nótaí aistriúcháin:
 *sainmhíniú (en):* A number describing how good something is (such as the accuracy of a machine learning mode).
 
 tagairtí:
-- scór: De Bhaldraithe (1978), Ó Dónaill (1977)
+- scór: De Bhaldraithe (1978), Ó Dónaill (1977), (TODO: Williams et al. (2023)?)
 
 nótaí aistriúcháin:
 - I gcomhthéacs cluichí a fheictear 'scór' úsáidte sna foclóirí seo, seachas i gcomhthéacs ríomhaireachta.
@@ -1182,7 +1176,7 @@ nótaí aistriúcháin:
 *sainmhíniú (en):* A group of things (such as numbers) that does not have the property of having order, and that does not have repeats.
 
 tagairtí:
-- tacar: De Bhaldraithe (1978), Dineen (1934)\*, Ó Dónaill et al. (1991)\*, Ó Dónaill (1977), Williams et al. (2023)
+- tacar: De Bhaldraithe (1978), Dineen (1934)\*, Ó Dónaill et al. (1991)\*, Ó Dónaill (1977), (TODO: Williams et al. (2023)?)
 
 nótaí aistriúcháin:
 - \* Ní i gcomhthéacs matamaiticiúil a luaitear an téarma seo sna foclóirí seo.
@@ -1195,8 +1189,8 @@ nótaí aistriúcháin:
 
 tagairtí:
 - feidhm: féach ar an téarma 'function / feidhm'
-- siogma: Ó Dónaill (1977)
-- -óideach: Ó Dónaill (1977)
+- siogma: Ó Dónaill (1977), (TODO: Williams et al. (2023)?)
+- -óideach: Ó Dónaill (1977), (TODO: Williams et al. (2023)?)
 
 nótaí aistriúcháin:
 - Níl an focal 'siogmóideach' ann i bhfoclóir ar bith atá á úsáid agam, ach is féidir an téarma a chruthú i nGaeilge mar a rinneadh i mBéarla as an litir Gréigise (siogma) agus -'óideach'.
@@ -1219,7 +1213,7 @@ nótaí aistriúcháin:
 *sainmhíniú (en):* In the context of a knowledge graph (or subgraph), lowly connected with other parts of the same graph / subgraph.
 
 tagairtí:
-- éadlúth: De Bhaldraithe (1978), Ó Dónaill et al. (1991), Ó Dónaill (1977)
+- éadlúth: De Bhaldraithe (1978), Ó Dónaill et al. (1991), Ó Dónaill (1977), (TODO: Williams et al. (2023)?)
 
 nótaí aistriúcháin:
 - Luann Foclóir De Bhaldraithe agus Foclóir Uí Dhónaill an téarma seo mar théarma eolaíochta i gcomhthéacs aeir / an t-atmaisféar, ach leis an mbrí chéanna.
@@ -1231,7 +1225,7 @@ nótaí aistriúcháin:
 *sainmhíniú (en):* In the context of a knowledge graph (or subgraph), how sparse it is.
 
 tagairtí:
-- éadlúth: De Bhaldraithe (1978), Ó Dónaill (1977)
+- éadlúth: De Bhaldraithe (1978), Ó Dónaill (1977), (TODO: Williams et al. (2023)?)
 
 nótaí aistriúcháin:
 - Luann Foclóir De Bhaldraithe agus Foclóir Uí Dhónaill an téarma seo  mar théarma eolaíochta i gcomhthéacs aeir / an t-atmaisféar, ach leis an mbrí chéanna.
@@ -1334,16 +1328,16 @@ nótaí aistriúcháin:
 - Ní bhíonn an téarma seo luaite i gcomhthéacs ríomhaireachta sna foclóirí thuas.
 
 
-**testing set (ainmfhocal): tacar deimhnithe**<br>
-*sainmhíniú (ga):* Tacar sonraí a úsáidtear chun samhail ríomhfhoghlama a dheimhniú.<br>
-*sainmhíniú (en):* The dataset used to validate a machine learning model.
+**testing set (ainmfhocal): tacar teisteála**<br>
+*sainmhíniú (ga):* Tacar sonraí a úsáidtear chun samhail ríomhfhoghlama a theisteáil.<br>
+*sainmhíniú (en):* The dataset used to test a machine learning model.
 
 tagairtí:
 - tacar: féach ar an téarma 'set / tacar'
-- deimhniú: féach ar an téarma 'validation / deimhniú'
+- teisteáil: féach ar an téarma 'testing / teisteáil'
 
 nótaí aistriúcháin:
-- Féach ar na téarmaí 'set / tacar' agus 'validation / deimhniú'.
+- Féach ar na téarmaí 'tacar' agus 'teisteáil'.
 
 
 **to evaluate (briathar): measúnaigh**<br>
@@ -1376,7 +1370,7 @@ nótaí aistriúcháin:
 *sainmhíniú (en):* the process of creating a (machine learning or statistical) model.
 
 tagairtí:
-- samhlaigh: De Bhaldraithe (1978)\*, Dineen (1934)\*, Ó Dónaill et al. (1991)\*, Ó Dónaill (1977)\*
+- samhlaigh: De Bhaldraithe (1978)\*, Dineen (1934)\*, Ó Dónaill et al. (1991)\*, Ó Dónaill (1977)\* (TODO: Williams et al. (2023)?)
 
 nótaí aistriúcháin:
 - Is i gcomhthéacs smaointeoireachta a luaitear an focal 'samhlaigh', seachas i gcomhthéacs ríomhaireachta ná matamaitice. Ach, toisc go nglactar le 'samhail' sa gcomhthéacs seo, glactar leis an mbriathar ''samhlaigh' atá ceangailte leis.
@@ -1413,11 +1407,10 @@ nótaí aistriúcháin:
 *sainmhíniú (en):* the process of taking a sample.
 
 tagairtí:
-- sampla: De Bhaldraithe (1978), Dineen (1934), Ó Dónaill et al. (1991), Ó Dónaill (1977), Williams et al. (2023)
+- sampla: De Bhaldraithe (1978), Dineen (1934), Ó Dónaill et al. (1991), Ó Dónaill (1977), (TODO: Williams et al. (2023)?)
 
 nótaí aistriúcháin:
 - Tá an téarma seo (i gcomhthéacs chomhchosúil ach níos leithne) díreach ar fáil ó na foclóirí thuas.
-- Úsáideann Stórchiste 'sampláil' mar théarma matamaitice.
 
 
 **to simulate (briathar): insamhail**<br>
@@ -1469,7 +1462,7 @@ nótaí aistriúcháin:
 *sainmhíniú (en):* To give a score to something (such as a machine learning model).
 
 tagairtí:
-- scóráil: Ó Dónaill (1977)
+- scóráil: Ó Dónaill (1977), (TODO: Williams et al. (2023)?)
 
 nótaí aistriúcháin:
 - I gcomhthéacs cluichí a fheictear 'scóráil' úsáidte i bhFoclóir Uí Dhónaill, seachas i gcomhthéacs ríomhaireachta.
@@ -1574,10 +1567,9 @@ nótaí aistriúcháin:
 *sainmhíniú (en):* An ordered list of numbers that represents a displacement in space, or a point in space.
 
 tagairtí:
-- veicteoir: De Bhaldraithe (1978), Ó Dónaill (1977), Williams et al. (2023)
+- veicteoir: De Bhaldraithe (1978), Ó Dónaill (1977), (TODO: Williams et al. (2023)?)
 
 nótaí aistriúcháin:
-- Tá an téarma sna foinsí thuas mar théarma matamaitice, agus glactar leis díreach mar atá mar sin.
-
+- Tá an téarma ann i bhFoclóir Uí Dhónaill mar théarma matamaitice, agus glactar leis díreach mar atá mar sin.
 
 

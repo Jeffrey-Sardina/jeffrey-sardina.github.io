@@ -1,154 +1,23 @@
 \documentclass{article}
-            \usepackage[a4paper, margin=1in]{geometry}
-            \usepackage{graphicx} % Required for inserting images
-            \usepackage{longtable}
+\usepackage[a4paper, margin=1in]{geometry}
+\usepackage{graphicx} % Required for inserting images
 
-            \title{Focloir-Trachtais v1.0}
-            \author{Jeffrey Seathrún Sardina}
-            \date{Eanáir 2025}
+\title{Focloir-Trachtais v1.0}
+\author{Jeffrey Seathrún Sardina}
+\date{Eanáir 2025}
 
-            % setup bibliography
-            \usepackage[
-                backend=biber,
-                style=numeric,
-                sorting=ynt
-            ]{biblatex}
-            \addbibresource{refs.bib}
+% setup bibliography
+\usepackage[
+    backend=biber,
+    style=numeric,
+    sorting=ynt
+]{biblatex}
+\addbibresource{refs.bib}
 
-            \begin{document}
+\begin{document}
 
-            \maketitle
-        
-\section{Achoimre na dTéarmaí}\begin{longtable}{|l|l|}
-	\hline
-		\textbf{Béarla} & \textbf{Gaeilge}\\ \hline 
-		0-shot&0-sonra\\ \hline 
-		alignment&ailíniú\\ \hline 
-		architecture&dearadh\\ \hline 
-		assumption&foshuíomh\\ \hline 
-		batch&fo-thacar\\ \hline 
-		batch size&méid na bhfo-thacar\\ \hline 
-		co-frequency&cóimhinicíocht\\ \hline 
-		coefficient&comhéifeacht\\ \hline 
-		computer science&ríomheolaíocht\\ \hline 
-		connectivity&(frása le 'ceangailte')\\ \hline 
-		correct fitting&foghlaim cheart\\ \hline 
-		correlation&comhchoibhneas\\ \hline 
-		counterexample&frith-shampla\\ \hline 
-		data&sonraí\\ \hline 
-		database&bunachar sonraí\\ \hline 
-		degree&céim\\ \hline 
-		dense&dlúth\\ \hline 
-		dense layer&ciseal lán-cheangailte\\ \hline 
-		density&dlúth\\ \hline 
-		dimension&toise\\ \hline 
-		dimensionality&(frása le 'toise')\\ \hline 
-		directed&dírithe\\ \hline 
-		distribution&dáileadh\\ \hline 
-		dropout layer&ciseal nialas\\ \hline 
-		edge&ceangal\\ \hline 
-		embedding&leabú\\ \hline 
-		epoch&seal\\ \hline 
-		evaluation&measúnú\\ \hline 
-		feature&airí\\ \hline 
-		few-shot&cúpla-sonra\\ \hline 
-		framework&creatlach\\ \hline 
-		frequency&minicíocht\\ \hline 
-		function&feidhm\\ \hline 
-		graph&graf\\ \hline 
-		histogram&histeagram\\ \hline 
-		hyperparameter&hipear-pharaiméadar\\ \hline 
-		hyperparameter search&cuardach hipear-pharaiméadar\\ \hline 
-		input&ionchur\\ \hline 
-		knowledge graph (KG)&graf eolais (GE)\\ \hline 
-		knowledge graph embedding&leabú graif eolais\\ \hline 
-		knowledge graph embedding model&samhail leabaithe graif eolais\\ \hline 
-		label&lipéad\\ \hline 
-		labelled&le lipéad\\ \hline 
-		latent&folaigh\\ \hline 
-		layer&ciseal\\ \hline 
-		learning rate&ráta foghlama\\ \hline 
-		link prediction&réamhinsint nasc\\ \hline 
-		link prediction query&ceist réamhinsinte nasc\\ \hline 
-		link prediction task&tasc réamhinsinte nasc\\ \hline 
-		link predictor&réamhinsteoir nasc\\ \hline 
-		loss&pionós\\ \hline 
-		loss function&feidhm phionós\\ \hline 
-		machine learning&ríomhfhoghlaim\\ \hline 
-		mapping&mapa\\ \hline 
-		median&airmheán\\ \hline 
-		model&samhail\\ \hline 
-		n-shot&n-sonra\\ \hline 
-		negative&diúltach\\ \hline 
-		negative (sample)&frith-shampla\\ \hline 
-		negative sampler&frith-shamplóir\\ \hline 
-		network&líonra\\ \hline 
-		neural&néarach\\ \hline 
-		neural network (NN)&líonra néarach (LN)\\ \hline 
-		node&nód\\ \hline 
-		object&cuspóir\\ \hline 
-		ontology&ointeolaíocht\\ \hline 
-		optimisation&feabhsúchán\\ \hline 
-		optimiser&córas feabhsúcháin\\ \hline 
-		output&aschur\\ \hline 
-		overfitting&ró-fhoghlaim\\ \hline 
-		parameter&paraiméadar\\ \hline 
-		plausibility&inchreidteacht\\ \hline 
-		plausibility score&scór inchreidteachta\\ \hline 
-		positive&deimhneach\\ \hline 
-		positive (triple)&fíor-abairt (thriarach)\\ \hline 
-		predicate&faisnéis\\ \hline 
-		pretraining&réamh-thraenáil\\ \hline 
-		probability&dóchúlacht\\ \hline 
-		query&ceist\\ \hline 
-		random&randamach\\ \hline 
-		random sample&sampla fánach\\ \hline 
-		regularisation&tabhairt chun rialtachta\\ \hline 
-		regulariser&córas rialtachta\\ \hline 
-		relation(ship)&ceangal\\ \hline 
-		sample&sampla\\ \hline 
-		sampler&samplóir\\ \hline 
-		scalar&scálach\\ \hline 
-		score&scór\\ \hline 
-		set&tacar\\ \hline 
-		sigmoid function&feidhm siogmóideach\\ \hline 
-		simulation&insamhladh\\ \hline 
-		sparse&éadlúth\\ \hline 
-		sparsity&éadlúth\\ \hline 
-		state of the art&scoth na réimse\\ \hline 
-		structural alignment&ailíniú struchtúir\\ \hline 
-		structural alignment framework&creatlach ailínithe struchtúir\\ \hline 
-		structural alignment hypothesis&hipitéis ar ailíniú struchtúir\\ \hline 
-		structure&struchtúr\\ \hline 
-		subgraph&fo-ghraf\\ \hline 
-		subject&ainmní\\ \hline 
-		testing&teisteáil\\ \hline 
-		testing set&tacar deimhnithe\\ \hline 
-		to evaluate&measúnaigh\\ \hline 
-		to finetune&mion-fheabhsú\\ \hline 
-		to model&samhlaigh\\ \hline 
-		to optimise&feabhsaigh\\ \hline 
-		to pretrain&réamh-thraenáil\\ \hline 
-		to sample&sampláil\\ \hline 
-		to simulate&insamhail\\ \hline 
-		to test&teisteáil\\ \hline 
-		to validate&deimhnigh\\ \hline 
-		to-regularise&tabhair chun rialtachta\\ \hline 
-		to-score&scóráil\\ \hline 
-		to-train&traenáil\\ \hline 
-		training&traenáil\\ \hline 
-		training set&tacar traenála\\ \hline 
-		transfer learning&tras-fhoghlaim\\ \hline 
-		triple&abairt thriarach\\ \hline 
-		underfitting&foghlaim easnamhach\\ \hline 
-		unseen&neamh-fheicthe\\ \hline 
-		validation&deimhniú\\ \hline 
-		vector&veicteoir\\ \hline 
-\caption{Liosta na dtéarma Béarla ar fad agus a leagan Gaeilge, cuirtear in ord de réir na dtéarma Béarla.}
-\label{tab-terms-en-ga}
-\end{longtable}
+\maketitle
 
-\section{Téarmaí}
 \textbf{0-shot (ainmfhocal): 0-sonra}<br>
 \textit{sainmhíniú (ga):} Cur chuige mion-fheabsaithe ina bhfuil an tsamhail réamh-thraenáilte teisteáilte ar tacar sonraí nua gan mion-fheabsú ar bith.<br>
 \textit{sainmhíniú (en):} A finetuning protocol in which the pretrained model is directly tested on a new dataset without finetuning.
@@ -170,7 +39,7 @@ nótaí aistriúcháin:
 
 tagairtí:
 \begin{itemize}
-	\item ailíniú: De Bhaldraithe (1978) \cite{de-bhaldraithe}, Ó Dónaill (1977) \cite{odonaill}
+	\item ailíniú: De Bhaldraithe (1978) \cite{de-bhaldraithe}, Ó Dónaill (1977) \cite{odonaill}, (TODO: Williams et al. (2023) \cite{storchiste}?)
 \end{itemize}
 
 nótaí aistriúcháin:
@@ -268,12 +137,12 @@ nótaí aistriúcháin:
 
 tagairtí:
 \begin{itemize}
-	\item comhéifeacht: De Bhaldraithe (1978) \cite{de-bhaldraithe}, Ó Dónaill (1977) \cite{odonaill}, Williams et al. (2023) \cite{storchiste}
+	\item comhéifeacht: De Bhaldraithe (1978) \cite{de-bhaldraithe}, Ó Dónaill (1977) \cite{odonaill}, (TODO: Williams et al. (2023) \cite{storchiste}?)
 \end{itemize}
 
 nótaí aistriúcháin:
 \begin{itemize}
-	\item Téarma luaite mar théarma matamaitice sna foclóirí thuas.
+	\item Téarma luaite mar théarma matamaitice i bhFoclóir Uí Dhónaill agus i bhFoclóir de Bhaldraithe.
 \end{itemize}
 
 
@@ -330,7 +199,7 @@ nótaí aistriúcháin:
 
 tagairtí:
 \begin{itemize}
-	\item comhchoibhneas: De Bhaldraithe (1978) \cite{de-bhaldraithe}, Dineen (1934) \cite{dineen}*, Ó Dónaill (1977) \cite{odonaill}
+	\item comhchoibhneas: De Bhaldraithe (1978) \cite{de-bhaldraithe}, Dineen (1934) \cite{dineen}*, Ó Dónaill (1977) \cite{odonaill}, (TODO: Williams et al. (2023) \cite{storchiste}?)
 \end{itemize}
 
 nótaí aistriúcháin:
@@ -397,7 +266,7 @@ nótaí aistriúcháin:
 
 tagairtí:
 \begin{itemize}
-	\item céim: De Bhaldraithe (1978) \cite{de-bhaldraithe}, Dineen (1934) \cite{dineen}, Ó Dónaill et al. (1991) \cite{focloir-beag}, Ó Dónaill (1977) \cite{odonaill}
+	\item céim: De Bhaldraithe (1978) \cite{de-bhaldraithe}, Dineen (1934) \cite{dineen}, Ó Dónaill et al. (1991) \cite{focloir-beag}, Ó Dónaill (1977) \cite{odonaill}, (TODO: Williams et al. (2023) \cite{storchiste}?)
 \end{itemize}
 
 nótaí aistriúcháin:
@@ -412,7 +281,7 @@ nótaí aistriúcháin:
 
 tagairtí:
 \begin{itemize}
-	\item dlúth: De Bhaldraithe (1978) \cite{de-bhaldraithe}, Dineen (1934) \cite{dineen}, Ó Dónaill et al. (1991) \cite{focloir-beag}, Ó Dónaill (1977) \cite{odonaill}, Williams et al. (2023) \cite{storchiste}
+	\item dlúth: De Bhaldraithe (1978) \cite{de-bhaldraithe}, Dineen (1934) \cite{dineen}, Ó Dónaill et al. (1991) \cite{focloir-beag}, Ó Dónaill (1977) \cite{odonaill}, (TODO: Williams et al. (2023) \cite{storchiste}?)
 \end{itemize}
 
 nótaí aistriúcháin:
@@ -444,7 +313,7 @@ nótaí aistriúcháin:
 
 tagairtí:
 \begin{itemize}
-	\item dlúth: De Bhaldraithe (1978) \cite{de-bhaldraithe}, Ó Dónaill et al. (1991) \cite{focloir-beag}, Ó Dónaill (1977) \cite{odonaill}
+	\item dlúth: De Bhaldraithe (1978) \cite{de-bhaldraithe}, Ó Dónaill et al. (1991) \cite{focloir-beag}, Ó Dónaill (1977) \cite{odonaill}, (TODO: Williams et al. (2023) \cite{storchiste}?)
 \end{itemize}
 
 nótaí aistriúcháin:
@@ -459,13 +328,12 @@ nótaí aistriúcháin:
 
 tagairtí:
 \begin{itemize}
-	\item toise: De Bhaldraithe (1978) \cite{de-bhaldraithe}, Dineen (1934) \cite{dineen}*, Ó Dónaill et al. (1991) \cite{focloir-beag}*, Ó Dónaill (1977) \cite{odonaill}, Williams et al. (2023) \cite{storchiste}
+	\item toise: De Bhaldraithe (1978) \cite{de-bhaldraithe}, Dineen (1934) \cite{dineen}*, Ó Dónaill et al. (1991) \cite{focloir-beag}*, Ó Dónaill (1977) \cite{odonaill}, (TODO: Williams et al. (2023) \cite{storchiste}?)
 \end{itemize}
 
 nótaí aistriúcháin:
 \begin{itemize}
 	\item * Is mar sórt tomhais, seachas toise matamaiticiúil, a fheictear an téarma sna foclóirí seo.
-	\item I bhFoclóir Uí Dhónaill agus i Stórchiste, luaitear 'toise' mar théarma matamaitice.
 \end{itemize}
 
 
@@ -583,7 +451,7 @@ nótaí aistriúcháin:
 
 tagairtí:
 \begin{itemize}
-	\item measúnú: De Bhaldraithe (1978) \cite{de-bhaldraithe}, Ó Dónaill (1977) \cite{odonaill}
+	\item measúnú: De Bhaldraithe (1978) \cite{de-bhaldraithe}, Ó Dónaill (1977) \cite{odonaill}, (TODO: Williams et al. (2023) \cite{storchiste}?)
 \end{itemize}
 
 nótaí aistriúcháin:
@@ -630,7 +498,7 @@ nótaí aistriúcháin:
 
 tagairtí:
 \begin{itemize}
-	\item creatlach: De Bhaldraithe (1978) \cite{de-bhaldraithe}, Ó Dónaill et al. (1991) \cite{focloir-beag}, Ó Dónaill (1977) \cite{odonaill}
+	\item creatlach: De Bhaldraithe (1978) \cite{de-bhaldraithe}, Ó Dónaill et al. (1991) \cite{focloir-beag}, Ó Dónaill (1977) \cite{odonaill}, (TODO: Williams et al. (2023) \cite{storchiste}?)
 \end{itemize}
 
 nótaí aistriúcháin:
@@ -645,14 +513,13 @@ nótaí aistriúcháin:
 
 tagairtí:
 \begin{itemize}
-	\item minicíocht: De Bhaldraithe (1978) \cite{de-bhaldraithe}, Ó Dónaill et al. (1991) \cite{focloir-beag}, Ó Dónaill (1977) \cite{odonaill}, Williams et al. (2023) \cite{storchiste}
+	\item minicíocht: De Bhaldraithe (1978) \cite{de-bhaldraithe}, Ó Dónaill et al. (1991) \cite{focloir-beag}, Ó Dónaill (1977) \cite{odonaill}, (TODO: Williams et al. (2023) \cite{storchiste}?)
 \end{itemize}
 
 nótaí aistriúcháin:
 \begin{itemize}
 	\item Tá an focal 'minic' (gan trácht ar 'minicíocht') i bhFoclóir Uí Dhuinín.
 	\item Luann Foclóir Uí Dhónaill agus Foclóir De Bhaldraithe 'minicíocht' mar théarma leictreachais, agus le brí níos leithne (.i. minice).
-	\item Luann Stórchiste 'minicíocht' mar théarma matamaitice.
 \end{itemize}
 
 
@@ -662,12 +529,12 @@ nótaí aistriúcháin:
 
 tagairtí:
 \begin{itemize}
-	\item feidhm: De Bhaldraithe (1978) \cite{de-bhaldraithe}, Dineen (1934) \cite{dineen}, Ó Dónaill et al. (1991) \cite{focloir-beag}, Ó Dónaill (1977) \cite{odonaill}, Williams et al. (2023) \cite{storchiste}
+	\item feidhm: De Bhaldraithe (1978) \cite{de-bhaldraithe}, Dineen (1934) \cite{dineen}, Ó Dónaill et al. (1991) \cite{focloir-beag}, Ó Dónaill (1977) \cite{odonaill}, (TODO: Williams et al. (2023) \cite{storchiste}?)
 \end{itemize}
 
 nótaí aistriúcháin:
 \begin{itemize}
-	\item Ní i gcomhthéacs matamaiticiúil a luaitear an téarma seo ach amháin i Stórchiste. Cé is moite de sin, is léir go bhfuil úsáid teicniúil leis (.i. 'Vital functions, feidhmiú an choirp.' i bhFoclóir de Bhaldraithe.
+	\item Ní i gcomhthéacs matamaiticiúil a luaitear an téarma seo. Cé is moite de sin, is léir go bhfuil úsáid teicniúil leis (.i. 'Vital functions, feidhmiú an choirp.' i bhFoclóir de Bhaldraithe.
 \end{itemize}
 
 
@@ -692,12 +559,12 @@ nótaí aistriúcháin:
 
 tagairtí:
 \begin{itemize}
-	\item histeagram: Ó Dónaill (1977) \cite{odonaill}, Williams et al. (2023) \cite{storchiste}
+	\item histeagram: Ó Dónaill (1977) \cite{odonaill}, (TODO: Williams et al. (2023) \cite{storchiste}?)
 \end{itemize}
 
 nótaí aistriúcháin:
 \begin{itemize}
-	\item Téarma díreach ar fáil ó Fhoclóir Uí Dhónaill agus ó Stórchiste.
+	\item Téarma díreach ar fáil ó Fhoclóir Uí Dhónaill.
 \end{itemize}
 
 
@@ -853,7 +720,7 @@ nótaí aistriúcháin:
 
 tagairtí:
 \begin{itemize}
-	\item ciseal: De Bhaldraithe (1978) \cite{de-bhaldraithe}, Dineen (1934) \cite{dineen}, Ó Dónaill (1977) \cite{odonaill}
+	\item ciseal: De Bhaldraithe (1978) \cite{de-bhaldraithe}, Dineen (1934) \cite{dineen}, Ó Dónaill (1977) \cite{odonaill}, (TODO: Williams et al. (2023) \cite{storchiste}?)
 \end{itemize}
 
 nótaí aistriúcháin:
@@ -868,7 +735,7 @@ nótaí aistriúcháin:
 
 tagairtí:
 \begin{itemize}
-	\item ráta: De Bhaldraithe (1978) \cite{de-bhaldraithe}, Ó Dónaill et al. (1991) \cite{focloir-beag}, Ó Dónaill (1977) \cite{odonaill}
+	\item ráta: De Bhaldraithe (1978) \cite{de-bhaldraithe}, Ó Dónaill et al. (1991) \cite{focloir-beag}, Ó Dónaill (1977) \cite{odonaill}, (TODO: Williams et al. (2023) \cite{storchiste}?)
 	\item foghlaim: féach ar an téarma 'machine learning / ríomhfhoghlaim
 \end{itemize}
 
@@ -1022,12 +889,12 @@ nótaí aistriúcháin:
 
 tagairtí:
 \begin{itemize}
-	\item airmheán: Ó Dónaill (1977) \cite{odonaill}, Williams et al. (2023) \cite{storchiste}
+	\item airmheán: Ó Dónaill (1977) \cite{odonaill}, (TODO: Williams et al. (2023) \cite{storchiste}?)
 \end{itemize}
 
 nótaí aistriúcháin:
 \begin{itemize}
-	\item Téarma díreach ar fáil leis an mbrí chéanna sna foinsí thuas.
+	\item Téarma díreach ar fáil leis an mbrí chéanna.
 \end{itemize}
 
 
@@ -1068,7 +935,7 @@ nótaí aistriúcháin:
 
 tagairtí:
 \begin{itemize}
-	\item diúltach: De Bhaldraithe (1978) \cite{de-bhaldraithe}, Dineen (1934) \cite{dineen}, Ó Dónaill et al. (1991) \cite{focloir-beag}, Ó Dónaill (1977) \cite{odonaill}
+	\item diúltach: De Bhaldraithe (1978) \cite{de-bhaldraithe}, Dineen (1934) \cite{dineen}, Ó Dónaill et al. (1991) \cite{focloir-beag}, Ó Dónaill (1977) \cite{odonaill}, (TODO: Williams et al. (2023) \cite{storchiste}?)
 \end{itemize}
 
 nótaí aistriúcháin:
@@ -1131,7 +998,7 @@ nótaí aistriúcháin:
 
 tagairtí:
 \begin{itemize}
-	\item néarach: Ó Dónaill (1977) \cite{odonaill}
+	\item néarach: Ó Dónaill (1977) \cite{odonaill}, (TODO: Williams et al. (2023) \cite{storchiste}?)
 \end{itemize}
 
 nótaí aistriúcháin:
@@ -1146,7 +1013,7 @@ nótaí aistriúcháin:
 
 tagairtí:
 \begin{itemize}
-	\item líonra: De Bhaldraithe (1978) \cite{de-bhaldraithe}, Dineen (1934) \cite{dineen}, Ó Dónaill et al. (1991) \cite{focloir-beag}, Ó Dónaill (1977) \cite{odonaill}
+	\item líonra: De Bhaldraithe (1978) \cite{de-bhaldraithe}, Dineen (1934) \cite{dineen}, Ó Dónaill et al. (1991) \cite{focloir-beag}, Ó Dónaill (1977) \cite{odonaill}, (TODO: Williams et al. (2023) \cite{storchiste}?)
 	\item néarach: féach ar an téarma 'neural / néarach'
 \end{itemize}
 
@@ -1192,7 +1059,7 @@ nótaí aistriúcháin:
 
 tagairtí:
 \begin{itemize}
-	\item ointeolaíocht: De Bhaldraithe (1978) \cite{de-bhaldraithe}, Ó Dónaill (1977) \cite{odonaill}
+	\item ointeolaíocht: De Bhaldraithe (1978) \cite{de-bhaldraithe}, Ó Dónaill (1977) \cite{odonaill}, (TODO: Williams et al. (2023) \cite{storchiste}?)
 \end{itemize}
 
 nótaí aistriúcháin:
@@ -1286,7 +1153,7 @@ nótaí aistriúcháin:
 
 tagairtí:
 \begin{itemize}
-	\item inchreidteacht: De Bhaldraithe (1978) \cite{de-bhaldraithe}, Ó Dónaill (1977) \cite{odonaill}
+	\item inchreidteacht: De Bhaldraithe (1978) \cite{de-bhaldraithe}, Ó Dónaill (1977) \cite{odonaill}, (TODO: Williams et al. (2023) \cite{storchiste}?)
 \end{itemize}
 
 nótaí aistriúcháin:
@@ -1317,7 +1184,7 @@ nótaí aistriúcháin:
 
 tagairtí:
 \begin{itemize}
-	\item deimhneach: De Bhaldraithe (1978) \cite{de-bhaldraithe}, Ó Dónaill (1977) \cite{odonaill}
+	\item deimhneach: De Bhaldraithe (1978) \cite{de-bhaldraithe}, Ó Dónaill (1977) \cite{odonaill}, (TODO: Williams et al. (2023) \cite{storchiste}?)
 \end{itemize}
 
 nótaí aistriúcháin:
@@ -1334,7 +1201,7 @@ tagairtí:
 \begin{itemize}
 	\item abairt: féach ar an téarma 'triple / abairt thriarach'
 	\item thriarach: féach ar an téarma 'triple / abairt thriarach'
-	\item fíor: De Bhaldraithe (1978) \cite{de-bhaldraithe}, Dineen (1934) \cite{dineen}, Ó Dónaill et al. (1991) \cite{focloir-beag}, Ó Dónaill (1977) \cite{odonaill}
+	\item fíor: De Bhaldraithe (1978) \cite{de-bhaldraithe}, Dineen (1934) \cite{dineen}, Ó Dónaill et al. (1991) \cite{focloir-beag}, Ó Dónaill (1977) \cite{odonaill}, (TODO: Williams et al. (2023) \cite{storchiste}?)
 \end{itemize}
 
 nótaí aistriúcháin:
@@ -1382,7 +1249,7 @@ nótaí aistriúcháin:
 
 tagairtí:
 \begin{itemize}
-	\item dóchúlacht: De Bhaldraithe (1978) \cite{de-bhaldraithe}, Dineen (1934) \cite{dineen}*, Ó Dónaill et al. (1991) \cite{focloir-beag}, Ó Dónaill (1977) \cite{odonaill}, Williams et al. (2023) \cite{storchiste}
+	\item dóchúlacht: De Bhaldraithe (1978) \cite{de-bhaldraithe}, Dineen (1934) \cite{dineen}*, Ó Dónaill et al. (1991) \cite{focloir-beag}, Ó Dónaill (1977) \cite{odonaill}, (TODO: Williams et al. (2023) \cite{storchiste}?)
 \end{itemize}
 
 nótaí aistriúcháin:
@@ -1491,13 +1358,12 @@ nótaí aistriúcháin:
 
 tagairtí:
 \begin{itemize}
-	\item sampla: De Bhaldraithe (1978) \cite{de-bhaldraithe}, Dineen (1934) \cite{dineen}, Ó Dónaill et al. (1991) \cite{focloir-beag}, Ó Dónaill (1977) \cite{odonaill}, Williams et al. (2023) \cite{storchiste}
+	\item sampla: De Bhaldraithe (1978) \cite{de-bhaldraithe}, Dineen (1934) \cite{dineen}, Ó Dónaill et al. (1991) \cite{focloir-beag}, Ó Dónaill (1977) \cite{odonaill}, (TODO: Williams et al. (2023) \cite{storchiste}?)
 \end{itemize}
 
 nótaí aistriúcháin:
 \begin{itemize}
 	\item Tá an téarma seo (i gcomhthéacs chomhchosúil ach níos leithne) díreach ar fáil ó na foclóirí thuas.
-	\item Luann Stórchiste 'sampla' mar théarma matamaitice.
 \end{itemize}
 
 
@@ -1507,7 +1373,7 @@ nótaí aistriúcháin:
 
 tagairtí:
 \begin{itemize}
-	\item samplóir: De Bhaldraithe (1978) \cite{de-bhaldraithe}, Ó Dónaill et al. (1991) \cite{focloir-beag}, Ó Dónaill (1977) \cite{odonaill}
+	\item samplóir: De Bhaldraithe (1978) \cite{de-bhaldraithe}, Ó Dónaill et al. (1991) \cite{focloir-beag}, Ó Dónaill (1977) \cite{odonaill}, (TODO: Williams et al. (2023) \cite{storchiste}?)
 \end{itemize}
 
 nótaí aistriúcháin:
@@ -1522,14 +1388,13 @@ nótaí aistriúcháin:
 
 tagairtí:
 \begin{itemize}
-	\item comhéifeacht: De Bhaldraithe (1978) \cite{de-bhaldraithe}, Ó Dónaill (1977) \cite{odonaill}, Williams et al. (2023) \cite{storchiste}
+	\item comhéifeacht: De Bhaldraithe (1978) \cite{de-bhaldraithe}, Ó Dónaill (1977) \cite{odonaill}, (TODO: Williams et al. (2023) \cite{storchiste}?)
 \end{itemize}
 
 nótaí aistriúcháin:
 \begin{itemize}
 	\item Téarma luaite mar théarma matamaitice i bhFoclóir Uí Dhónaill agus i bhFoclóir de Bhaldraithe.
-	\item Luann Stórchiste 'scálach' mar théarma matamaitice.
-	\item Más ainmfhocal atá uait, úsáid 'uimhir scálach' (nó 'scálach' mar atá ag Stórchiste).
+	\item Más ainmfhocal atá uait, úsáid 'uimhir scálach'.
 \end{itemize}
 
 
@@ -1539,7 +1404,7 @@ nótaí aistriúcháin:
 
 tagairtí:
 \begin{itemize}
-	\item scór: De Bhaldraithe (1978) \cite{de-bhaldraithe}, Ó Dónaill (1977) \cite{odonaill}
+	\item scór: De Bhaldraithe (1978) \cite{de-bhaldraithe}, Ó Dónaill (1977) \cite{odonaill}, (TODO: Williams et al. (2023) \cite{storchiste}?)
 \end{itemize}
 
 nótaí aistriúcháin:
@@ -1554,7 +1419,7 @@ nótaí aistriúcháin:
 
 tagairtí:
 \begin{itemize}
-	\item tacar: De Bhaldraithe (1978) \cite{de-bhaldraithe}, Dineen (1934) \cite{dineen}*, Ó Dónaill et al. (1991) \cite{focloir-beag}*, Ó Dónaill (1977) \cite{odonaill}, Williams et al. (2023) \cite{storchiste}
+	\item tacar: De Bhaldraithe (1978) \cite{de-bhaldraithe}, Dineen (1934) \cite{dineen}*, Ó Dónaill et al. (1991) \cite{focloir-beag}*, Ó Dónaill (1977) \cite{odonaill}, (TODO: Williams et al. (2023) \cite{storchiste}?)
 \end{itemize}
 
 nótaí aistriúcháin:
@@ -1571,8 +1436,8 @@ nótaí aistriúcháin:
 tagairtí:
 \begin{itemize}
 	\item feidhm: féach ar an téarma 'function / feidhm'
-	\item siogma: Ó Dónaill (1977) \cite{odonaill}
-	\item -óideach: Ó Dónaill (1977) \cite{odonaill}
+	\item siogma: Ó Dónaill (1977) \cite{odonaill}, (TODO: Williams et al. (2023) \cite{storchiste}?)
+	\item -óideach: Ó Dónaill (1977) \cite{odonaill}, (TODO: Williams et al. (2023) \cite{storchiste}?)
 \end{itemize}
 
 nótaí aistriúcháin:
@@ -1603,7 +1468,7 @@ nótaí aistriúcháin:
 
 tagairtí:
 \begin{itemize}
-	\item éadlúth: De Bhaldraithe (1978) \cite{de-bhaldraithe}, Ó Dónaill et al. (1991) \cite{focloir-beag}, Ó Dónaill (1977) \cite{odonaill}
+	\item éadlúth: De Bhaldraithe (1978) \cite{de-bhaldraithe}, Ó Dónaill et al. (1991) \cite{focloir-beag}, Ó Dónaill (1977) \cite{odonaill}, (TODO: Williams et al. (2023) \cite{storchiste}?)
 \end{itemize}
 
 nótaí aistriúcháin:
@@ -1619,7 +1484,7 @@ nótaí aistriúcháin:
 
 tagairtí:
 \begin{itemize}
-	\item éadlúth: De Bhaldraithe (1978) \cite{de-bhaldraithe}, Ó Dónaill (1977) \cite{odonaill}
+	\item éadlúth: De Bhaldraithe (1978) \cite{de-bhaldraithe}, Ó Dónaill (1977) \cite{odonaill}, (TODO: Williams et al. (2023) \cite{storchiste}?)
 \end{itemize}
 
 nótaí aistriúcháin:
@@ -1757,19 +1622,19 @@ nótaí aistriúcháin:
 \end{itemize}
 
 
-\textbf{testing set (ainmfhocal): tacar deimhnithe}<br>
-\textit{sainmhíniú (ga):} Tacar sonraí a úsáidtear chun samhail ríomhfhoghlama a dheimhniú.<br>
-\textit{sainmhíniú (en):} The dataset used to validate a machine learning model.
+\textbf{testing set (ainmfhocal): tacar teisteála}<br>
+\textit{sainmhíniú (ga):} Tacar sonraí a úsáidtear chun samhail ríomhfhoghlama a theisteáil.<br>
+\textit{sainmhíniú (en):} The dataset used to test a machine learning model.
 
 tagairtí:
 \begin{itemize}
 	\item tacar: féach ar an téarma 'set / tacar'
-	\item deimhniú: féach ar an téarma 'validation / deimhniú'
+	\item teisteáil: féach ar an téarma 'testing / teisteáil'
 \end{itemize}
 
 nótaí aistriúcháin:
 \begin{itemize}
-	\item Féach ar na téarmaí 'set / tacar' agus 'validation / deimhniú'.
+	\item Féach ar na téarmaí 'tacar' agus 'teisteáil'.
 \end{itemize}
 
 
@@ -1812,7 +1677,7 @@ nótaí aistriúcháin:
 
 tagairtí:
 \begin{itemize}
-	\item samhlaigh: De Bhaldraithe (1978) \cite{de-bhaldraithe}*, Dineen (1934) \cite{dineen}*, Ó Dónaill et al. (1991) \cite{focloir-beag}*, Ó Dónaill (1977) \cite{odonaill}*
+	\item samhlaigh: De Bhaldraithe (1978) \cite{de-bhaldraithe}*, Dineen (1934) \cite{dineen}*, Ó Dónaill et al. (1991) \cite{focloir-beag}*, Ó Dónaill (1977) \cite{odonaill}* (TODO: Williams et al. (2023) \cite{storchiste}?)
 \end{itemize}
 
 nótaí aistriúcháin:
@@ -1861,13 +1726,12 @@ nótaí aistriúcháin:
 
 tagairtí:
 \begin{itemize}
-	\item sampla: De Bhaldraithe (1978) \cite{de-bhaldraithe}, Dineen (1934) \cite{dineen}, Ó Dónaill et al. (1991) \cite{focloir-beag}, Ó Dónaill (1977) \cite{odonaill}, Williams et al. (2023) \cite{storchiste}
+	\item sampla: De Bhaldraithe (1978) \cite{de-bhaldraithe}, Dineen (1934) \cite{dineen}, Ó Dónaill et al. (1991) \cite{focloir-beag}, Ó Dónaill (1977) \cite{odonaill}, (TODO: Williams et al. (2023) \cite{storchiste}?)
 \end{itemize}
 
 nótaí aistriúcháin:
 \begin{itemize}
 	\item Tá an téarma seo (i gcomhthéacs chomhchosúil ach níos leithne) díreach ar fáil ó na foclóirí thuas.
-	\item Úsáideann Stórchiste 'sampláil' mar théarma matamaitice.
 \end{itemize}
 
 
@@ -1937,7 +1801,7 @@ nótaí aistriúcháin:
 
 tagairtí:
 \begin{itemize}
-	\item scóráil: Ó Dónaill (1977) \cite{odonaill}
+	\item scóráil: Ó Dónaill (1977) \cite{odonaill}, (TODO: Williams et al. (2023) \cite{storchiste}?)
 \end{itemize}
 
 nótaí aistriúcháin:
@@ -2078,16 +1942,15 @@ nótaí aistriúcháin:
 
 tagairtí:
 \begin{itemize}
-	\item veicteoir: De Bhaldraithe (1978) \cite{de-bhaldraithe}, Ó Dónaill (1977) \cite{odonaill}, Williams et al. (2023) \cite{storchiste}
+	\item veicteoir: De Bhaldraithe (1978) \cite{de-bhaldraithe}, Ó Dónaill (1977) \cite{odonaill}, (TODO: Williams et al. (2023) \cite{storchiste}?)
 \end{itemize}
 
 nótaí aistriúcháin:
 \begin{itemize}
-	\item Tá an téarma sna foinsí thuas mar théarma matamaitice, agus glactar leis díreach mar atá mar sin.
+	\item Tá an téarma ann i bhFoclóir Uí Dhónaill mar théarma matamaitice, agus glactar leis díreach mar atá mar sin.
 \end{itemize}
 
 
 
-            \printbibliography[title={Tagairtí}]
-            \end{document}
-        
+\printbibliography[title={Tagairtí}]
+\end{document}
