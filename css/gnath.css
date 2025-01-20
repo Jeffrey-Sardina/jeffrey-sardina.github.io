@@ -50,6 +50,13 @@ button
     border-color: #444444;
 }
 
+/* index.html of site overall */
+.floated
+{
+    float: left;
+    margin-right: 5%;
+}
+
 
 /* 404 page */
 #not-found
