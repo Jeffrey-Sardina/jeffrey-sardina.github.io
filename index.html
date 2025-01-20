@@ -9,8 +9,11 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
         <script> 
             $(function(){
-                $("#headerBar").load("header.html"); 
+                $("#headerBar").load("/header.html"); 
             });
+            $(function(){{
+                $("#footerBar").load("/footer.html"); 
+            }});
         </script> 
         <title>Jeffrey Sardina</title>
     </head>
@@ -33,6 +36,8 @@
 
             <h2>Contact</h2>
             Feel free to reach out to me at <u>jeffreysardina [at] duck [full stop] com</u>. (Also, if you have not heard of @duck.com email ("Duckmail") relays -- check it out! It's amazing for filtering trackers and reducing spam, and allows you to easily create burner email relays when signing up to online services that you think might try to sell your information. You can find information <a href="https://duckduckgo.com/duckduckgo-help-pages/email-protection/duck-addresses/">here</a>.)
+        
+            <div id="footerBar"></div>
         </div>
     </body>
 </html> 

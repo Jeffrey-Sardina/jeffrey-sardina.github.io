@@ -9,8 +9,11 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
         <script> 
             $(function(){
-                $("#headerBar").load("../header.html"); 
+                $("#headerBar").load("/header.html"); 
             });
+            $(function(){{
+                $("#footerBar").load("/footer.html"); 
+            }});
         </script> 
     </head>
 
@@ -57,7 +60,8 @@
             Note: Ccaizhdi is written top-to-bottom, left-to-right.<br>
             Have fun learning Ccaizhdi!<br>
             --Jeffrey (Siothrún, as Gaeilge) Sardina
-        </div>
 
+            <div id="footerBar"></div>
+        </div>
     </body>
 </html>
