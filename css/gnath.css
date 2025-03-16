@@ -1,12 +1,22 @@
-/* for phones */
+/* for phones / tall windows */
 @media screen and (orientation:portrait)
 {
+    /* for tall windows */
     html
     {
         /* rem is set relative to this -- 16 is the default, but I need larger for mobile */
-        font-size: 24px;
+        font-size: 16px;
     }
-
+    
+    /* for phones wth tall windows (overries above) */
+    @media (pointer:none), (pointer:coarse) {
+        html
+        {
+            /* rem is set relative to this -- 16 is the default, but I need larger for mobile */
+            font-size: 24px;
+        }
+    }
+    
     .centerbox{
         margin: auto;
         width: 90%;
@@ -149,7 +159,7 @@ button
 /* https://www.w3schools.com/howto/howto_js_topnav.asp */
 /* https://www.w3schools.com/howto/howto_css_dropdown.asp */
 /* Add a black background color to the top navigation */
-/* for phones */
+/* for phones / tall windows */
 @media screen and (orientation:portrait) {
     .topnav {
         background-color: #222;
