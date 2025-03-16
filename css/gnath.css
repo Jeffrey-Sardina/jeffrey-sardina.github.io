@@ -63,6 +63,11 @@ button
     border-color: #444444;
 }
 
+.center-text
+{
+    text-align: center;
+}
+
 
 /* 404 page */
 #not-found
@@ -74,10 +79,16 @@ button
 
 
 /* index.html in Foclóir Tráchtais */  
-/* ref: https://www.w3schools.com/howto/howto_js_filter_lists.asp */  
+/* ref: https://www.w3schools.com/howto/howto_js_filter_lists.asp */ 
+#mainHeader
+{
+    margin-bottom: 0px;
+} 
+
 #versionNum
 {
     text-align: center;
+    margin-top: 0px;
 }
 
 #termInput
@@ -137,6 +148,11 @@ button
         position: relative;
         left: 20%;
     }
+}
+
+.letter-header
+{
+    margin-bottom: 0px;
 }
 
 /* Dropdown Button */
