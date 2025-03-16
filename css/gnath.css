@@ -14,7 +14,7 @@ h1
 @media screen and (orientation:portrait) {
     .centerbox{
         margin: auto;
-        width: 100%;
+        width: 90%;
         padding: 10px;
         font-size: 1.5em;
         background-color:#444;
@@ -83,7 +83,7 @@ button
 #termInput
 {
     width: 99.5%;
-    font-size: 16px; /* Increase font-size */
+    font-size: 1.5em; /* Increase font-size */
     padding-top: 12px; /* Add some padding */
     padding-bottom: 12px; /* Add some padding */
     margin-bottom: 12px; /* Add some space below the input */
@@ -119,18 +119,31 @@ button
 /* https://www.w3schools.com/howto/howto_js_topnav.asp */
 /* https://www.w3schools.com/howto/howto_css_dropdown.asp */
 /* Add a black background color to the top navigation */
-.topnav {
-    background-color: #222;
-    width: 60%;
-    position: relative;
-    left: 20%;
+/* for phones */
+@media screen and (orientation:portrait) {
+    .topnav {
+        background-color: #222;
+        width: 90%;
+        position: relative;
+        left: 20%;
+    }
+}
+
+/* for computers */
+@media screen and (orientation:landscape) {
+    .topnav {
+        background-color: #222;
+        width: 60%;
+        position: relative;
+        left: 20%;
+    }
 }
 
 /* Dropdown Button */
 .dropbtn {
     background-color: #222;
     padding: 16px;
-    font-size: 16px;
+    font-size: 1.5em;
     border: none;
 }
 
