@@ -1,3 +1,7 @@
+* {
+    font-size: large;
+}
+
 body
 {
     background-color:#333333;
@@ -83,7 +87,7 @@ button
 #termInput
 {
     width: 99.5%;
-    font-size: 1.5em; /* Increase font-size */
+    font-size: 1.5em; /* Increase font size */
     padding-top: 12px; /* Add some padding */
     padding-bottom: 12px; /* Add some padding */
     margin-bottom: 12px; /* Add some space below the input */
@@ -104,7 +108,7 @@ button
     background-color: #444; /* Grey background color */
     padding: 12px; /* Add some padding */
     text-decoration: none; /* Remove default text underline */
-    font-size: 1.5em; /* Increase the font-size */
+    font-size: 1.5em; /* Increase the font size */
     color: #ffffff; /* Add a black text color */
     display: block; /* Make it into a block element to fill the whole list */
 }
