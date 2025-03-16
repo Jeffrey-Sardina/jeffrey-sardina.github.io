@@ -4,7 +4,7 @@
     html
     {
         /* rem is set relative to this -- 16 is the default, but I need larger for mobile */
-        font-size: 20px;
+        font-size: 24px;
     }
 
     .centerbox{
