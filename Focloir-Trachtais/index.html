@@ -175,6 +175,7 @@
             <li><h2 id="H" class="letter-header">H</h2></li>
             <li><a href="terms/histogram.html">histogram | histeagram</a></li>
             <li><a href="terms/hits@k-(H@k).html">hits@k (H@k) | fíricí@k (F@k)</a></li>
+            <li><a href="terms/hop.html">hop | coiscéim</a></li>
             <li><a href="terms/hyperparameter.html">hyperparameter | hipear-pharaiméadar</a></li>
             <li><a href="terms/hyperparameter-combination.html">hyperparameter combination | teaglaim hipear-pharaiméadar</a></li>
             <li><a href="terms/hyperparameter-grid.html">hyperparameter grid | eangach hipear-pharaiméadar</a></li>
@@ -231,12 +232,15 @@
             <li><a href="terms/margin-ranking-loss-(MRL).html">margin ranking loss (MRL) | pionós rangaithe le bearna (PRB)</a></li>
             <li><a href="terms/matrix.html">matrix | maitrís</a></li>
             <li><a href="terms/maximum.html">maximum | uasluach</a></li>
+            <li><a href="terms/mean.html">mean | meán- nó meánach</a></li>
+            <li><a href="terms/mean-(statistic).html">mean (statistic) | meán</a></li>
             <li><a href="terms/mean-rank-(MR).html">mean rank (MR) | meán-rang (MR)</a></li>
             <li><a href="terms/mean-reciprocal-rank-(MRR).html">mean reciprocal rank (MRR) | meán na ranganna deilíneacha (MRD)</a></li>
             <li><a href="terms/mean-squared-error-(MSE).html">mean squared error (MSE) | meán na n-earráidí cearnaithe (MEC)</a></li>
             <li><a href="terms/measure.html">measure | tomhas</a></li>
             <li><a href="terms/to-measure.html">to measure | tomhais</a></li>
-            <li><a href="terms/median.html">median | airmheán</a></li>
+            <li><a href="terms/median.html">median | airmheánach</a></li>
+            <li><a href="terms/median-(statistic).html">median (statistic) | airmheán</a></li>
             <li><a href="terms/message-passing.html">message passing | seachadadh teachtaireachtaí</a></li>
             <li><a href="terms/metric.html">metric | tomhas</a></li>
             <li><a href="terms/minimum.html">minimum | íosluach</a></li>
@@ -414,9 +418,11 @@
             <li><a href="terms/z-score.html">z-score | scór-z</a></li>
         </ul>
 
+        <button onclick="goToTop()" id="suas" title="Suas">Suas</button>
         <div id="footerBar"></div>
     </div>
     <script>
+        // Search bar code
         function termSearch() {
             // Prep data
             let input = document.getElementById('termInput');
@@ -440,6 +446,24 @@
 					li[i].style.display = "none";
 				}
             }
+        }
+
+        // show suas button on scroll; derrived from https://www.w3schools.com/howto/howto_js_scroll_to_top.asp
+        let suasBtn = document.getElementById("suas");
+        window.onscroll = function() {scrollFunction()};
+        function scrollFunction() {
+            // values here are in pixels
+            let min_scroll_dist = 20
+            if (document.body.scrollTop > min_scroll_dist || document.documentElement.scrollTop > min_scroll_dist)
+            {
+                suasBtn.style.display = "block";
+            } else {
+                suasBtn.style.display = "none";
+            }
+        }
+        function goToTop() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
         }
         </script>
     
